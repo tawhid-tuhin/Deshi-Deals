@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deshi Deals</title>
+    <link rel="shortcut icon" href="assets/logo.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="stylesheet" href="index.css">
+<!-- font  -->
+ <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<!-- font awosome -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body class="work-sans">
+
+    <!-- Deshi Deals Section   -->
+
+    <nav>
+        <div class="flex justify-center items-center shadow-sm">
+            <img class="h-[78px]" src="assets/logo.png" alt="">
+            <div>
+                <h1 class="text-[#E71580] text-[48px]">Deshi <span class="font-bold">Deals</span></h1>
+                <p class="text-[#797075]">Cheap Price ,  Best Quality</p>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Purchase TK 200 or above & get 20% off -->
+<section id="banner" style="display: none;" class=" bg-gradient-to-t from-[#ffc7f0] to-[#fff] mt-[40px] h-[800px] w-full flex flex-col justify-center items-center text-center relative">
+  <div class="banner-text mt-[100px]">
+    <h1 class="text-[58px] font-bold">Purchase TK 200 or above & get 20% off</h1>
+    <p class="text-[58px] font-bold text-pink-500">20% off</p>
+
+    <div class="flex justify-center items-center gap-[30px] mt-[40px]">
+      <button class="text-[24px]">Use Promo Code</button>
+      <button class="bg-pink-500 text-white text-[24px] rounded-2xl w-[271px] h-[70px] font-bold cursor-pointer">
+        SELL200
+      </button>
+    </div>
+
+    <div class="flex justify-center ">
+      <img class=" h-[600px]" src="assets/hero-bg.png" alt="">
+    </div>
+  </div>
+</section>
+
+<!-- all card section  -->
+
+<main class="mt-[100px] bg-gray-100">
+    <section id="product-container" class="w-10/12 mx-auto py-10 grid grid-cols-12 gap-5">
+
+        <section id="product-box" class="col-span-9">
+
+            <!-- Kitchenware -->
+
+            <div class="Kitchenware">
+                <h1 class="text-[40px] font-bold pl-9 ">Kitchenware</h1>
+                <div class="kitchen-items mt-5 grid grid-cols-3 gap-5">
+
+                                <!-- card1  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/kitchen-1.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 id="card-title-1" class="font-bold text ">K. Accessories</h2>
+    <p id="card-price-1" class="t text">39.00</p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button  id="card-btn-1" 
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                                <!-- card2  -->
+
+                    <div class=" card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/kitchen-2.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">K. Accessories</h2>
+    <p class="t text">560.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                                <!-- card3  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/kitchen-3.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">Home Cooker</h2>
+    <p class="t text">2800.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button id="cart-btn-home-cooker"
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                </div>
+            </div>
+            
+
+            <!-- Sportswear -->
+
+            <div  class="Sportswear mt-8">
+                <h1 class="text-[40px] font-bold pl-9 ">Sportswear</h1>
+                <div class="Sportswear-items mt-5 grid grid-cols-3 gap-5">
+
+                                <!-- card1  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/sports-1.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">Sports Back Cap</h2>
+    <p class="t text">900.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button id="card-btn-1" 
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                                <!-- card2  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/sports-2.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text ">Full Jersey Set</h2>
+    <p class="t text">3500.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button
+id="card-btn-1" 
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                                <!-- card3  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/sports-3.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">Sports cates</h2>
+    <p class="t text">2340.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button
+id="card-btn-1" 
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                </div>
+            </div>
+            
+
+                <!-- Furniture -->
+
+            <div  class="Furniture mt-8">
+                <h1 class="text-2xl font-bold pl-9 ">Furniture</h1>
+                <div class="Furniture-items mt-5 grid grid-cols-3 gap-5">
+
+                                <!-- card1  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/furniture-1.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-regular fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">Single Relax Chair</h2>
+    <p class="t text">2500.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div id="card-btn-1" 
+class="cart-btn w-full">
+        <button
+class="w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                                <!-- card2  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/furniture-2.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">Children play</h2>
+    <p class="t text">1300.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button
+id="card-btn-1" 
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                                <!-- card3  -->
+
+                    <div class="card bg-base-100 shadow-sm w-[350px] max-w-sm mx-auto h-auto transition-shadow duration-300 cursor-pointer hover:shadow-lg hover:shadow-pink-200">
+  <figure class="mx-auto mt-8 rounded-3 bg-gray-300 h-[200px] w-[302px] ">
+    <img
+      src="assets/furniture-3.png"
+      alt="Shoes"
+       />
+  </figure>
+  <div class="card-body items-center text-center gap-4">
+    <div class="flex">
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+        <i class="fa-solid fa-star text-yellow-400"></i>
+    </div>
+    <h2 class="font-bold text">Flexible Sofa</h2>
+    <p class="t text">3999.00 </p><span class="t text"> TK</span>
+
+    <!-- button  -->
+
+    <div class="w-full">
+        <button
+id="card-btn-1" 
+class="cart-btn w-full text-center  relative group inline-flex items-center px-8 py-2.5 overflow-hidden text-lg font-medium text-pink-600 border-2 border-pink-500 rounded-lg hover:text-white group hover:bg-gray-50">
+<span
+class="absolute left-0 block w-full h-0 transition-all bg-pink-500 opacity-100 group-hover:h-full top-1/2 group-hover:top-0 duration-400 ease"></span>
+<span
+class="absolute right-0 flex items-center justify-start w-10 h-10 duration-300 transform translate-x-full group-hover:translate-x-0 ease">
+<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path>
+</svg>
+</span>
+<span class="relative text-base font-semibold transition-all duration-300 group-hover:-translate-x-3">Add to Cart</span>
+</button>
+
+    </div>
+</div>
+</div>
+
+                </div>
+            </div>
+            
+        </section>
+
+        <!-- side bar  -->
+
+        <aside id="card-box" class="col-span-3">
+            <div class="bg-white p-5 rounded">
+                <h1 class="font-bold">Have a Cupon</h1>
+                <div class="join mt-3">
+  <input class="input join-item" placeholder="Email" />
+  <button class="btn join-item rounded-r-xl b text-white">
+    Apply
+</button>
+</div>
+            </div>
+            <div class="cart-box bg-white mt-10 p-4">
+                <div class="flex justify-between">
+                  <h1 class="font-bold text-[20px] ">Cart </h1>
+                  <button id="btn-clear" class="btn bg-red-500 text-white">Clear</button>
+                </div>
+                <div id="cart-container" class="space-y-3" >
+                  <div>
+
+                  </div>
+                </div>
+
+                <div class="mt-5">
+                    <h1><span class="font-bold">Total Price: </span><span id="total-price"> 0</span> Tk</h1>
+                    <h1 class=""><span class="font-bold">Total Quantity: </span><span id="total-quantity"> 0</span> Items</h1>
+                    <button class="btn font-bold text-[20px] bg-pink-500 text-white w-full mt-3">
+                        Make Purchase
+                    </button>
+            </div>
+        </aside>
+    </section>
+</main>
+
+
+<script src="script/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,27 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+
+.work-sans {
+    font-family: "Work Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+}
+
+
+.pink{
+    color: #E71580;
+}
+
+.t{
+    color: #797075 ;
+}
+
+.b{
+        background-color: #E71580;
+}
+
+.text{
+    color: #E71580;
+    font-size: 24px;
+}
